@@ -1,0 +1,42 @@
+.main {
+  width: 70%;
+  max-width: 1000px;
+  min-width: 300px;
+  border: 1px solid black;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 15px;
+}
+
+.title {
+  background-image: url('./images/paint_stroke.png');
+  background-size: 100% 200px;
+  background-repeat: no-repeat;
+  width: 80%;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 200px;
+  font-size: 80px;
+  font-family: 'Brush Script MT';
+}
+
+.colorPicker {
+  border: 1px solid black;
+  width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 200px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+}
+
+.colorPickerForm {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid red;
+}
